@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import django_heroku
+
 from django.utils.translation import gettext_lazy as _
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -95,13 +97,13 @@ WSGI_APPLICATION = 'med.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 
-        # 'ENGINE':'django.db.backends.postgresql',
-        # 'NAME':'med',
-        # 'USER':'med',
-        # 'PASSWORD':'Adgjmptw'
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME':'hobby-dev',
+        'USER':'med',
+        'PASSWORD':'Adgjmptw'
     }
 }
 
@@ -190,3 +192,5 @@ PARLER_LANGUAGES = {
     }
 }
 
+
+django_heroku.settings(locals())
