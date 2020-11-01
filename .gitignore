@@ -1,5 +1,6 @@
 *.pyc
-
+staticfiles
 .env
 getting-started/*
-
+static/*
+media/*
