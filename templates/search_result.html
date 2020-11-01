@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{%load i18n %}
+{% block content %}
+	<div class="p-5 container">
+		{% if query %}
+			<h1>{% trans "Posts containing" %} "{{query}}" </h1>
+			<h3>
+				{% with results.count as total_results %}
+					{%trans "Found " %} {{total_results}} {%trans "result" %}{{total_results|pluralize}}
+				{% endwith %}
+			</h3>
+			{% for post in results %}
+				<h4><a href="{{post.get_absolute_url}}">{{post.title}}</a></h4>
+				{{post.body|truncatewords_html:30|safe}}
+			{% empty %}
+				<p>{% trans "There are no results for your query." %}</p>
+			{% endfor %}
+		{% endif %}
+	</div>	
+{% endblock %}

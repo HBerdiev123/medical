@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  
+<!-- Mirrored from fox-admin-templates.multipurposethemes.com/foxadmin-minisidebar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 18:58:16 GMT -->
+{% include 'backoffice/head.html' %}
+
+<body class="hold-transition skin-purple sidebar-collapse sidebar-mini">
+
+ <div class="wrapper">
+
+    {% include 'backoffice/header.html' %}
+    {% block customer_style %}
+    
+    {% endblock %}
+    <!-- Control Sidebar Toggle Button -->
+    <div>
+  		<button class="control-sidebar-btn btn btn-dark" data-toggle="control-sidebar"><i class="fa fa-cog fa-spin"></i></button>
+  	</div>
+    <!-- Left side column. contains the logo and sidebar -->
+    {% include 'backoffice/sidebar.html' %}
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+  	  {% include 'backoffice/content-header.html' %}
+
+  		{% block content %}
+
+  		{% endblock %}
+  	
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="main-footer">
+      <div class="pull-right d-none d-sm-inline-block">
+        <b>Version</b> 1.1
+      </div>Copyright &copy; 2017 <a href="https://www.multipurposethemes.com/">Multi-Purpose Themes</a>. All Rights Reserved.
+    </footer>
+
+    <!-- Control Sidebar -->
+   {% include 'backoffice/side-panel.html' %}
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+    <div class="control-sidebar-bg"></div>
+  </div>
+  <!-- ./wrapper -->
+	  
+   {% include 'backoffice/footer.html' %}
+   {% block javascript %}
+   {% endblock %}
+	
+</body>
+
+<!-- Mirrored from fox-admin-templates.multipurposethemes.com/foxadmin-minisidebar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 18:59:07 GMT -->
+</html>

@@ -1,0 +1,43 @@
+<div class="blog-details-form pb-100">
+            <div class="blog-details-shape">
+                <img src="assets/img/blog/6.png" alt="Shape">
+            </div>
+            <div class="container">
+                <div class="blog-details-form-wrap">
+                    <h2>Drop your coomment</h2>
+                   
+                    <form method="post">
+                        {% csrf_token %}
+                        {{form.non_field_errors}}
+
+                        {# {{form.as_p}} #}
+                        <div class="form-group">
+                            {{form.body.errors}}
+                            <textarea class="form-control" id="id_body" name='body' rows="8" placeholder="Your Comments"></textarea>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    {{form.name.errors}}
+                                    <input type="text" class="form-control" name='author' placeholder="Your name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    {{form.email.errors}}
+                                    <input type="email" class="form-control" name='email' placeholder="Email">
+                                </div>
+                            </div>
+                    
+                      
+                        </div>
+                        <div class="text-left">
+                            <button type="submit" class="btn blog-details-form-btn">Post A Comment</button>
+                        </div>
+                    </form>
+
+                    
+                </div>
+            </div>
+    </div>

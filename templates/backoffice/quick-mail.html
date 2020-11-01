@@ -1,0 +1,110 @@
+ <div class="box box-info">
+    <div class="box-header">
+      <i class="fa fa-envelope"></i>
+
+      <h3 class="box-title">Quick Email</h3>
+      <!-- tools box -->
+      <div class="pull-right box-tools">
+        <button type="button" class="btn btn-danger btn-sm" data-widget="remove" data-toggle="tooltip"
+                title="Remove">
+          <i class="fa fa-times"></i></button>
+      </div>
+      <!-- /. tools -->
+    </div>
+    <div class="box-body">
+      
+      <form method="post" action="{% url 'backoffice:dashboard' %}" id="emailForm">
+        <input type="hidden" name="user" value="{{request.user.id}}" >
+        <div class="form-group">
+          <input type="email" class="form-control" name="email_to" placeholder="Email to:">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" placeholder="Subject">
+        </div>
+        <div>
+          <textarea class="textarea" placeholder="Message" name="body" style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+        </div>
+        {% csrf_token %}
+        <input type="submit" class="pull-right btn btn-blue" value="Send">      </form>
+    
+    </div>
+  
+</div>
+
+{% block addons %}
+  
+<script type="text/javascript">
+
+    // $(document).ready(function(){
+
+    //     $('#sendEmail').on('click', function(e){
+    //       e.preventDefault()
+    //       console.log('Button is pressed')
+    //     });
+
+    // })
+
+  
+
+
+ 
+// (function ($) {
+//    "use strict"; // Start of use strict
+//     $("#emailForm").validator().on("submit", function (event) {
+//         if (event.isDefaultPrevented()) {
+//             // handle the invalid form...
+//             formError();
+//             submitMSG(false, "Did you fill in the form properly?");
+//         } else {
+//             // everything looks good!
+//             event.preventDefault();
+//             submitForm();
+//         }
+//     });
+
+//   function submitForm(){
+//      var email_to = $("#email_to").val();
+//      var subject = $("#subject").val();
+//      var body = $("#body").val();
+//      var csrfmiddlewaretoken = $("input[name=csrfmiddlewaretoken]").val()
+   
+//      $.ajax({
+//             type: "POST",
+//             url: "/backoffice/email/",
+//             data: {"email_to=" + email_to + "&subject=" + subject + "&body=" + body +"&csrfmiddlewaretoken="+csrfmiddlewaretoken},
+            
+//             success : function(text){
+//                 if (text == "success"){
+//                     formSuccess();
+//                 } else {
+//                     formError();
+//                     submitMSG(false,text);
+//                 }
+//             }
+//         });
+//     }
+
+
+//     function formSuccess(){
+//         $("#emailForm")[0].reset();
+//         submitMSG(true, "Message Submitted!")
+//     }
+
+//     function formError(){
+//         $("#emailForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+//             $(this).removeClass();
+//         });
+//     }
+
+//     function submitMSG(valid, msg){
+//         if(valid){
+//             var msgClasses = "h4 tada animated text-success";
+//         } else {
+//             var msgClasses = "h4 text-danger";
+//         }
+//         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+//     }
+
+//   }(jQuery));
+</script>
+{% endblock %}

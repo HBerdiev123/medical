@@ -1,0 +1,64 @@
+  {% load i18n %}
+   <tr>
+      <th>{%trans "Invoice" %} </th>
+      <th>{%trans "Full Name" %}</th>
+      <th>{%trans "Date" %}</th>
+      <th>{%trans "Service" %}</th>
+      <th>{%trans "Status" %}</th>
+      <th>{%trans "Doctor" %}</th>
+      <th>{%trans "Edit AD" %}</th>
+      <th></th>
+    </tr>
+  {% for app in appointments %}
+    <tr>
+	  <td><a href="javascript:void(0)">#{{app.id}}</a></td>
+	  <td>{{app.name}}</td>
+	  <td><span class="text-muted"><i class="fa fa-clock-o"></i> {{app.created_at|date:"M d, Y"}}</span></td>
+	  <td>{{app.service}}</td>
+	  <td>
+	  	{% ifequal app.status "pending"  %} <span class="label label-danger"> {% else %} <span class="label label-success"> {% endifequal %} {{app.status}}</span>
+	  </td>
+	  <td>{{app.doctor}}</td>
+	  <td>
+				{% ifnotequal app.status "processed" %}
+			
+					 <button type="button"
+				              class="btn btn-success js-create-schedule"
+				              data-url="{% url 'appointment:sche-create' app.id %}">
+				        <span class="glyphicon glyphicon-pencil"></span> {% trans "Assign Schedule" %}
+				      </button>
+
+				{%else%} 
+					 <button type="button"
+				              class="btn btn-success js-update-schedule"
+				              data-url="{% url 'appointment:sche-update' app.schedule.id %}">
+				        <span class="glyphicon glyphicon-pencil"></span> {% trans "Update Schedule" %}
+				      </button>
+					 <button type="button"
+				              class="btn btn-danger js-delete-schedule"
+				              data-url="{% url 'appointment:sche-delete' app.schedule.id %}">
+				        <span class="glyphicon glyphicon-pencil"></span> {% trans "Delete" %}
+				      </button>
+							
+				{% endifnotequal %}
+		
+
+	  </td>
+
+	  <td>
+
+      <button type="button"
+              class="btn btn-success js-update-book"
+              data-url="{% url 'appointment:app-update' app.id %}">
+        <span class="glyphicon glyphicon-pencil"></span> {% trans "Edit" %}
+      </button>
+
+ 	 <button type="button"
+              class="btn btn-danger js-delete-book"
+              data-url="{% url 'appointment:delete' app.id %}">
+        <span class="glyphicon glyphicon-trash"></span> {% trans "Delete" %}
+      </button>
+     </td>
+	 
+	</tr>
+{% endfor %}

@@ -1,0 +1,13 @@
+{% load sitetree %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<ul class="navbar-nav">
+	{% for item in sitetree_items %}
+		<li class="nav-item">
+			<a href="{% sitetree_url for item %}" class="nav-link {% if item.has_children %}dropdown-toggle{% endif %} {% if item.is_current or item.in_current_branch %} active {% endif %}">{{item.title_resolved}}</a>
+				{% if item.has_children %}
+					{% sitetree_children of item for menu template 'nav/nav-sub-item.html' %}
+				{%endif%}
+		</li>
+	{% endfor %}
+</ul>

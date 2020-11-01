@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+
+        <!-- Home Slider -->
+        {{slider.body|safe}}
+        <!-- End Home Slider -->
+
+        <!-- Emergency -->
+        {{emergency.body|safe}}
+        <!-- End Emergency -->
+
+        <!-- Welcome -->
+        {{welcome.body|safe}}
+        <!-- End Welcome -->
+
+        <!-- Speciality -->
+        {{speciality.body|safe}}
+        <!-- End Speciality -->
+
+        <!-- Services -->
+        {{services.body|safe}}
+        <!-- End Services -->
+
+        <!-- Video -->
+        {{video.body|safe}}
+        <!-- End Video -->
+
+        <!-- Doctors -->
+        {{doctor.body|safe}}
+        <!-- End Doctors -->
+
+        <!-- Counter -->
+        
+        {{counter.body|safe}}
+
+        <!-- End Counter -->
+
+        <!-- Appointment -->
+
+        {% include 'appointment.html' with form=form doctors=doctors %}
+        <!-- End Appointment -->
+
+        <!-- Blog -->
+        <section class="blog-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title-two">
+                    <span>{% trans "Blogs" %}</span>
+                    <h2>{% trans "Our latest blogs" %}</h2>
+                </div>
+                <div class="row">
+                  {% for post in posts %}  
+                    <div class="col-sm-6 col-lg-4 {% if forloop.last %} offset-sm-3 offset-lg-0 {% endif %} wow fadeInUp" data-wow-delay=".{{forloop.counter|add:"4"}}s">
+                        <div class="blog-item">
+                            <div class="blog-top">
+                                <a href="blog-details.html">
+                                    <img src="{{post.post_image.url}}" alt="Blog">
+                                </a>
+                            </div>
+                            <div class="blog-bottom">
+                                <h3>
+                                    <a href="{{post.get_absolute_url}}">{{post.title}}</a>
+                                </h3>
+                                <p>{{post.body|truncatechars_html:80|safe}}</p>
+                                <ul>
+                                    <li>
+                                        <a href="{{post.post_image.url}}">
+                                            {% trans "Read More" %}
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-calendar"></i>
+                                         {{post.created|date:"M d, Y"}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        </div>
+                   {% endfor %} 
+            </div>
+        </section>
+        <!-- End Blog -->
+        {% endblock content %} 
+{% block footer %}
+{%endblock%}
+
+   

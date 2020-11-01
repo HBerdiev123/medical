@@ -1,0 +1,10 @@
+    <div class="blog-details-category">
+        <h3>Category</h3>
+        <ul>
+            {% for cat in cats %}
+                <li>
+                    <a href="{% url 'blog:list_post_by_category' cat.slug %}">{{cat.category_name}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>

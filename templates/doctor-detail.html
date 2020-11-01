@@ -1,0 +1,130 @@
+{%extends 'base.html' %}
+{%load static%}
+{%block content%}
+	      <!-- Page Title -->
+        <div class="page-title-area page-title-three">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="page-title-item-two">
+                        <h2>{{doc.name}}</h2>
+                        <h3>{{doc.specialization}}</h3>
+                        <p>{{doc.degree}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Doctor Details -->
+        <div class="doctor-details-area pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="doctor-details-item doctor-details-left">
+                            <img src="{{doc.doc_image.url}}" alt="Doctor">
+                          
+                            {{doc.contact_info|safe}}
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="doctor-details-item">
+                            <div class="doctor-details-right">
+                                
+          					{{doc.biography|safe}}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Doctor Details -->
+
+        <!-- Appointment -->
+        <div class="appointment-area-three">
+            <div class="container-fluid p-0">
+                <div class="row m-0">
+                    <div class="col-lg-7">
+                        <div class="appointment-item appointment-item-two">
+                            <div class="appointment-shape">
+                                <img src="assets/img/appointment/3.png" alt="Shape">
+                            </div>
+                            <h2>Book your appointment</h2>
+                            <span>We will confirm your  appointment within 2 hours</span>
+                            <div class="appointment-form">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-business-man-alt-1"></i>
+                                                <label>Name</label>
+                                                <input type="text" class="form-control" placeholder="Enter Your Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-ui-message"></i>
+                                                <label>Email</label>
+                                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-ui-call"></i>
+                                                <label>Phone</label>
+                                                <input type="text" class="form-control" placeholder="Enter Your Number">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-hospital"></i>
+                                                <label>Services</label>
+                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                    <option>Dental Care</option>
+                                                    <option>Pathology</option>
+                                                    <option>Diagnosis</option>
+                                                    <option>Neurology</option>
+                                                    <option>Cardiology</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-doctor"></i>
+                                                <label>Doctor</label>
+                                                <input type="text" class="form-control" placeholder="Choose Your Doctor">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <i class="icofont-business-man"></i>
+                                                <label>Age</label>
+                                                <input type="text" class="form-control" placeholder="Your Age">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn appointment-btn">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 pr-0">
+                        <div class="speciality-item speciality-right speciality-right-two speciality-right-three">
+                            <img src="assets/img/doctor/4.jpg" alt="Doctor">
+                            <div class="speciality-emergency">
+                                <div class="speciality-icon">
+                                    <i class="icofont-ui-call"></i>
+                                </div>
+                                <h3>Emergency Call</h3>
+                                <p>+07 554 332 322</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Appointment -->
+{%endblock%}

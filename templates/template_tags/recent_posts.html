@@ -1,0 +1,25 @@
+{%load static %}
+{%load blog_tags %}
+<div class="blog-details-recent">
+    <h3>Recent Blogs</h3>
+    <ul>
+        {% for post in latest_posts %}
+        <li>
+            <img src="{{post.post_image.url}}" alt="Recent">
+            <a href="{{post.get_absolute_url}}">{{post.title}}</a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="icofont-businessman"></i>
+                    {{post.author.name}}
+                    </a>
+                </li>
+                <li>
+                    <i class="icofont-calendar"></i>
+                     {{post.created|date:"M d, Y"}}
+                </li>
+            </ul>
+        {%endfor %}
+      
+    </ul>
+</div>

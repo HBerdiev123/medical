@@ -1,0 +1,50 @@
+{%load email_tags %}
+<div class="col-lg-3 col-12">
+          <a href="{% url "emails:compose" %}" data-url="" class="btn btn-success btn-block btn-shadow margin-bottom" id="compose">Compose</a>
+
+          <div class="box box-solid">
+            <div class="box-header with-border">
+              <h3 class="box-title">Folders</h3>
+
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="box-body no-padding mailbox-nav">
+              <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" href="{% url 'emails:list-flag' flag='inbox' %}">
+                    <i class="ion ion-ios-email-outline"></i> Inbox
+                  <span class="label label-success pull-right">{% unread_mails%}</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'emails:list-flag' flag="sent" %}"><i class="ion ion-paper-airplane"></i> Sent</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'emails:list-flag' flag='draft' %}"><i class="ion ion-email-unread"></i> Drafts</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'emails:list-flag' flag="starred" %}"><i class="ion ion-star"></i>  Starred <span class="label label-warning pull-right">{% starred %}</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'emails:list-flag' flag="trash" %}"><i class="ion ion-trash-a"></i> Trash</a></li>
+              </ul>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /. box -->
+          <div class="box box-solid">
+            <div class="box-header with-border">
+              <h3 class="box-title">Labels</h3>
+
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+              </div>
+            </div>
+            <div class="box-body no-padding mailbox-nav">
+              <ul class="nav nav-pills flex-column">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o text-red"></i> Important</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o text-yellow"></i> Promotions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-circle-o text-light-blue"></i> Social</a></li>
+              </ul>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>

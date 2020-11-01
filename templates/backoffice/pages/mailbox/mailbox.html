@@ -1,0 +1,136 @@
+{% extends 'backoffice/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block customer_style %}
+  <link rel="stylesheet" href="{% static '/assets/vendor_plugins/iCheck/flat/blue.css' %}">
+{% endblock %}
+{% block content %}
+  <!-- Content Wrapper. Contains page content -->
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        {% include "backoffice/pages/mailbox/side-panel.html" %}
+        <div class="col-lg-9 col-12">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">{% trans "Inbox" %}</h3>
+              <div class="box-tools pull-right">
+                <div class="has-feedback">
+                  <input type="text" class="form-control input-sm" placeholder="{% trans 'Search Mail' %}">
+                  <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <div class="mailbox-controls">      
+                  {% include "backoffice/pages/mailbox/mailbox-controls.html" %}
+              </div>
+              <div class="mailbox-messages">
+                <table class="table table-hover table-striped table-responsive" id="email-table">
+                  <tbody>
+                    {% include "backoffice/pages/mailbox/partial_email_list.html" with emails=emails %}
+                  </tbody>
+                </table>
+                <!-- /.table -->
+              </div>
+              <!-- /.mail-box-messages -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer no-padding">
+              <div class="mailbox-controls">
+                {% include 'backoffice/pages/mailbox/mailbox-controls.html' %}
+                <!-- /.pull-right -->
+                
+              </div>
+            </div>
+          </div>
+          <!-- /. box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  
+    <!-- THE MODAL WE WILL BE USING -->
+  <div class="modal fade" id="modal-email">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      </div>
+    </div>
+
+
+  <!-- /.content-wrapper -->
+ {% endblock content %} 
+
+  {% block javascript %}	
+
+    <script src="{% static '/assets/vendor_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+  	<!-- iCheck -->
+  	<script src="{% static '/assets/vendor_plugins/iCheck/icheck.js' %}"></script>
+  	
+  	<!-- foxadmin for mailbox -->
+  	<script src="{% static '/js/pages/mailbox.js' %}"></script>
+  	
+  	<!-- foxadmin for demo purposes -->
+  	<script src="{% static '/js/demo.js' %}"></script>
+
+      <script type="text/javascript">
+
+
+  $(".nav-item a").click(function (e) {
+    var url = $(this).attr("href") 
+    var $this = $(this)
+    // console.log(url)
+    e.preventDefault()
+    $.ajax({
+      url: url,
+      type: 'get',
+      dataType: 'json',
+      beforeSend: function () {
+        $(".nav-item a").removeClass('active')
+        $this.addClass('active')
+      },
+      success: function (data) {
+        // console.log(data)
+        $("#email-table tbody").html(data.html_book_list);
+      }
+    });
+  });
+
+  $("#delete-email").click(function(e){
+    var $this = $(this)
+    var items = []
+
+    $('input[name="check-box"]:checked').each(function() {
+       items[this.value]=this.value
+       console.log(items)
+    });
+    $.ajax({
+      url: '{% url "emails:delete" %}',
+      type: 'get',
+      data: items,
+      // dataType: 'json',
+      beforeSend: function () {
+        // $(".nav-item a").removeClass('active')
+        // $this.addClass('active')
+      },
+      success: function (data) {
+        console.log(data)
+        // $("#email-table tbody").html(data.html_book_list);
+      }
+    })
+  })
+   
+
+    
+  </script>
+	{% endblock %}
+
+
+</body>
+
+<!-- Mirrored from fox-admin-templates.multipurposethemes.com/foxadmin-minisidebar/pages/mailbox/mailbox.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Aug 2020 19:07:27 GMT -->
+</html>

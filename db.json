@@ -1,0 +1,1775 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-07-20T10:07:36.168Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "menu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-07-20T11:07:17.955Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Home",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-07-20T11:07:36.056Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Blog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-07-20T11:07:58.333Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Contacts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-07-20T15:52:29.668Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Home 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-07-20T15:52:39.951Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Home 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-07-20T17:53:53.775Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Blog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-07-20T19:06:19.336Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "More than 80 clinical trials launch to test of the coronavirus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-07-22T17:19:10.218Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Who is Django Reinghart",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-07-22T18:08:47.386Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "More than 80 clinical trials launch to test of the coronavirus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-07-22T18:13:36.003Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "More than 80 clinical trials launch to test of the coronavirus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-07-22T18:15:43.814Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "More than 80 clinical trials launch to test of the coronavirus",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-07-22T18:42:22.286Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Who is Django Reinghart",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Post image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-07-23T09:17:23.420Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Category object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-07-23T09:20:44.540Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Medical Science",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-07-23T09:20:56.941Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Daily Lifestyle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-07-23T09:21:14.490Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Medicine",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-07-23T09:21:25.336Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Modern Technology",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-07-23T09:21:47.235Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Cancer Research",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-07-23T10:04:14.843Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Who is Django Reinghart",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-07-23T10:27:18.806Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "White blood cells and their role in the brain",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-07-23T10:41:54.366Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "About Us",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-07-23T16:03:55.797Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Doctors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-07-23T16:04:33.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Services",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-07-23T16:05:04.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "menu",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-07-23T16:05:26.802Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "menu",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-07-23T17:39:20.816Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-07-23T17:40:16.765Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-07-23T17:51:27.991Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-07-23T17:52:14.549Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-07-23T18:01:10.529Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-07-23T18:08:23.998Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-07-23T18:19:46.853Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-07-23T18:22:22.929Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-07-23T18:23:49.483Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-07-23T18:24:20.880Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-07-23T18:30:54.875Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-07-23T18:35:44.850Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2020-07-23T19:08:18.795Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2020-07-23T19:10:17.644Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2020-07-23T19:17:08.681Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2020-07-23T19:28:03.834Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2020-07-23T19:30:23.469Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2020-07-23T19:38:15.081Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2020-07-23T21:51:33.663Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-07-24T00:29:48.460Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-07-24T00:34:16.955Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-07-24T00:35:58.113Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-07-24T00:38:21.196Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2020-07-24T00:40:36.495Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2020-07-24T00:42:47.364Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2020-07-24T00:44:38.304Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2020-07-24T00:45:14.886Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2020-07-24T00:45:40.715Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2020-07-24T00:46:21.099Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2020-07-24T18:53:30.725Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2020-07-24T19:02:05.088Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2020-07-24T19:09:29.704Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2020-07-24T19:12:50.334Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2020-07-24T19:14:57.043Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2020-07-24T19:15:56.817Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2020-07-24T19:16:28.175Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2020-07-24T19:18:15.237Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2020-07-24T19:20:43.875Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2020-07-24T19:21:53.173Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2020-07-24T19:25:17.277Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2020-07-24T19:26:20.160Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2020-07-24T19:30:49.383Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "About",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2020-07-24T23:43:36.104Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "About Us",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2020-07-24T23:49:09.494Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "Services",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2020-07-24T23:49:28.529Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Services",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2020-07-24T23:50:48.019Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "Services",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2020-07-25T00:22:29.995Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Dr. Sarah Taylor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2020-07-25T00:25:51.516Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Doctors",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2020-07-25T00:33:49.250Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Dr. Sarah Taylor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Doc image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2020-07-25T00:52:08.078Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Dr. Sarah Taylor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Biography\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2020-07-25T10:33:50.353Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Privacy Policy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2020-07-25T10:34:09.035Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "menu",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2020-07-25T10:35:11.406Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Terms & Conditions",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2020-07-25T10:35:31.174Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "FAQ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2020-07-25T10:37:52.513Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Home 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2020-07-25T10:38:02.518Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Home 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2020-08-08T19:04:27.310Z",
+    "user": 2,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Khusan Berdiev",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2020-08-11T09:24:47.602Z",
+    "user": 2,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Khusan Berdiev",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mohpn0p00ny0ripdb0jpqf2wnb44das0",
+  "fields": {
+    "session_data": "ZWY5OTZlZjUwZTIxN2Y1N2FmMGU0OWQ4YTg1OWYwNDRlNzlhMjk0ZDp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0ZWMxYTk1NDZkMDk0ZGRhNDg1MTE2M2Y2MDUxNzc5ZTMxNDQ4NDUwIn0=",
+    "expire_date": "2020-08-21T18:46:59.855Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xxg32mbcz4awjut2f6mq4cavmeacmufs",
+  "fields": {
+    "session_data": "Y2U3YWI3NmEzZjY5NDVkNzUwY2ZiNjQ0NWY3NjNlYTRmNWE2ZWMxYzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI0OTZiNzQ3MThkZTY5ZjY2NTRlYzdiMDYwMzM5Y2FjNTgwZTdhNzFlIn0=",
+    "expire_date": "2020-08-03T10:07:16.268Z"
+  }
+},
+{
+  "model": "sitetree.tree",
+  "pk": 1,
+  "fields": {
+    "title": "main",
+    "alias": "menu"
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 1,
+  "fields": {
+    "title": "Home",
+    "hint": "",
+    "url": "/",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 1,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 2,
+  "fields": {
+    "title": "Blog",
+    "hint": "",
+    "url": "/blog",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 2,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 3,
+  "fields": {
+    "title": "Contacts",
+    "hint": "",
+    "url": "/contacts",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 8,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 6,
+  "fields": {
+    "title": "About Us",
+    "hint": "",
+    "url": "/pages/about",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 6,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 7,
+  "fields": {
+    "title": "Doctors",
+    "hint": "",
+    "url": "/doctors",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 3,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 8,
+  "fields": {
+    "title": "Services",
+    "hint": "",
+    "url": "/pages/services",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": null,
+    "sort_order": 7,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 9,
+  "fields": {
+    "title": "Privacy Policy",
+    "hint": "",
+    "url": "/pages/privacy",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": 6,
+    "sort_order": 9,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 10,
+  "fields": {
+    "title": "Terms & Conditions",
+    "hint": "",
+    "url": "/pages/terms",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": 6,
+    "sort_order": 10,
+    "access_permissions": []
+  }
+},
+{
+  "model": "sitetree.treeitem",
+  "pk": 11,
+  "fields": {
+    "title": "FAQ",
+    "hint": "",
+    "url": "/pages/faq",
+    "urlaspattern": false,
+    "tree": 1,
+    "hidden": false,
+    "alias": null,
+    "description": "",
+    "inmenu": true,
+    "inbreadcrumbs": true,
+    "insitetree": true,
+    "access_loggedin": false,
+    "access_guest": false,
+    "access_restricted": false,
+    "access_perm_type": 1,
+    "parent": 6,
+    "sort_order": 11,
+    "access_permissions": []
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "multiple",
+    "slug": "multiple"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "search",
+    "slug": "search"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Chemical",
+    "slug": "chemical"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Dental",
+    "slug": "dental"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Blood",
+    "slug": "blood"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Medical Science",
+    "slug": "medical-science"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 1,
+    "content_type": 12,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": 12,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 3,
+    "content_type": 12,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 4,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 5,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 1,
+  "fields": {
+    "category_name": "Health Care",
+    "slug": "health-care",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 2,
+  "fields": {
+    "category_name": "Medical Science",
+    "slug": "medical-science",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 3,
+  "fields": {
+    "category_name": "Daily Lifestyle",
+    "slug": "daily-lifestyle",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 4,
+  "fields": {
+    "category_name": "Medicine",
+    "slug": "medicine",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 5,
+  "fields": {
+    "category_name": "Modern Technology",
+    "slug": "modern-technology",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 6,
+  "fields": {
+    "category_name": "Cancer Research",
+    "slug": "cancer-research",
+    "category_description": ""
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "More than 80 clinical trials launch to test of the coronavirus",
+    "post_category": 1,
+    "post_image": "blog/2020/07/22/2.jpg",
+    "slug": "more-80-clinical-trials-launch-test-coronavirus",
+    "author": 1,
+    "body": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>\r\n\r\n<p>Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>\r\n\r\n<h3>Section 1.10.32 of &quot;de Finibus Bonorum et Malorum&quot;, written by Cicero in 45 BC</h3>\r\n\r\n<ul>\r\n\t<li>1. Donec a purus at tellus rhoncus semper non sed tortor.</li>\r\n\t<li>2. Etiam ut est laoreet, accumsan erat sed, ullamcorper magna.</li>\r\n\t<li>3. Nullam sit amet magna cursus, consectetur magna in, faucibus erat.</li>\r\n\t<li>4. Aenean vitae tortor pretium, sollicitudin urna at, sollicitudin dui.</li>\r\n\t<li>5. Phasellus tempor velit sed leo viverra lacinia.</li>\r\n\t<li>6. Suspendisse quis sapien dapibus, sagittis ligula a, rhoncus justo.</li>\r\n</ul>",
+    "publish": "2020-07-20T19:03:49Z",
+    "created": "2020-07-20T19:06:19.107Z",
+    "updated": "2020-07-22T18:15:43.800Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Who is Django Reinghart",
+    "post_category": 1,
+    "post_image": "blog/2020/07/22/4.jpg",
+    "slug": "who-django-reinghart",
+    "author": 1,
+    "body": "<p>The <span style=\"font-family:monospace\">include&nbsp;</span>tag should be considered as an implementation of &ldquo;render this subtemplate and include the HTML&rdquo;, not as &ldquo;parse this subtemplate and include its contents as if it were part of the parent&rdquo;. This means that there is no shared state between included templates &ndash; each include is a completely independent rendering process.</p>\r\n\r\n<p>Blocks are evaluated&nbsp;<em>before</em>&nbsp;they are included. This means that a template that includes blocks from another will contain blocks that have&nbsp;<em>already been evaluated and rendered</em>&nbsp;- not blocks that can be overridden by, for example, an extending template.</p>",
+    "publish": "2020-07-22T17:18:31Z",
+    "created": "2020-07-22T17:19:10.149Z",
+    "updated": "2020-07-23T10:04:14.763Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "White blood cells and their role in the brain",
+    "post_category": 2,
+    "post_image": "blog/2020/07/23/image.jpg",
+    "slug": "white-blood-cells-and-their-role-brain",
+    "author": 2,
+    "body": "<p>The study led by Professor Adrian Liston from Babraham Institute, UK &amp; VIB-KU Leuven, Belgium and other colleagues was published in the journal&nbsp;<em>Cell</em>.</p>\r\n\r\n<h2>White blood cells &ndash; sentinels of the immune system</h2>\r\n\r\n<p>Detailed functions of white blood cells and their types are known in different parts of the body. The brain is protected by a blood-brain-barrier or the BBB, which prevents infections and other foreign chemicals and compounds from quickly entering the brain.</p>\r\n\r\n<p>The white blood cells form a part of the body&rsquo;s immune system. The cells increase and trigger inflammation to fight off infection, while the BBB stops the immune cells from entering the brain.</p>\r\n\r\n<p>The brain has its own immune system sentinel cells called the microglial cells. If the microglial cells become damaged, they increase, trigger inflammation and repair the damaged tissues.</p>\r\n\r\n<h2>Where do these microglial cells come from?</h2>\r\n\r\n<p>Studies have shown that during embryonic development, the microglial cells enter and stay in the brain. Their population remains constant as they self-renew during the lifetime of the brain.</p>\r\n\r\n<h2>White blood cells in brain &ndash; what is known?</h2>\r\n\r\n<p>Several studies have revealed that there is a role of white blood cells in certain neurological diseases such as Alzheimer&rsquo;s disease, Parkinson&rsquo;s disease, multiple sclerosis and cerebrovascular accident or stroke.</p>\r\n\r\n<p>The researchers explained that there has been no scientific evidence showing the presence of these white blood cells in healthy brains. Therefore, the presence of these cells in a healthy brain has remained controversial.</p>\r\n\r\n<h2>What was this study about?</h2>\r\n\r\n<p>This study was a collaborative effort from a team of researchers led by Prof. Adrian Liston. The group sought to clarify the presence and role of white blood cells in developing brains of mice and humans.</p>\r\n\r\n<blockquote>\r\n<p><em>A misconception about white blood cells comes from their name.&rdquo;</em>&nbsp;These cells are not limited to the bloodstream, he said. He added,&nbsp;<em>&ldquo;These &#39;immune cells&#39; are not just present in the blood. They are constantly circulating around our body and enter all of our organs, including - as it turns out - the brain. We are only just starting to discover what white blood cells do when they leave the blood. This research indicates that they act as a go between, transferring information from the rest of the body to the brain environment.&rdquo;</em></p>\r\n\r\n<p>Dr Oliver Burton, Babraham Institute</p>\r\n</blockquote>",
+    "publish": "2020-07-23T10:25:01Z",
+    "created": "2020-07-23T10:27:18.754Z",
+    "updated": "2020-07-23T10:27:18.755Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:00:33.147Z",
+    "updated": "2020-07-22T11:00:33.147Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:00:52.882Z",
+    "updated": "2020-07-22T11:00:52.882Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:02:41.722Z",
+    "updated": "2020-07-22T11:02:41.722Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:03:12.847Z",
+    "updated": "2020-07-22T11:03:12.847Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:04:03.578Z",
+    "updated": "2020-07-22T11:04:03.578Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:04:54.973Z",
+    "updated": "2020-07-22T11:04:54.973Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:05:54.899Z",
+    "updated": "2020-07-22T11:05:54.899Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 1,
+    "author": "sdf",
+    "email": "berdiev.khusan@gmail.com",
+    "body": "sdf",
+    "created": "2020-07-22T11:09:26.692Z",
+    "updated": "2020-07-22T11:09:26.692Z",
+    "active": false
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 1,
+  "fields": {
+    "title": "About",
+    "slug": "about",
+    "priority": 1,
+    "body": "<!-- Page Title -->\n\n<div class=\"page-title-area page-title-four\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"page-title-item\">\n<h2>About</h2>\n\n<ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><i class=\"icofont-simple-right\"></i></li>\n    <li>About</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n\n<!-- End Page Title -->\n\n<!-- About -->\n\n<div class=\"about-area pt-100 pb-70\">\n<div class=\"container\">\n<div class=\"row align-items-center\">\n<div class=\"col-lg-6\">\n<div class=\"about-item\">\n<div class=\"about-left\"><img alt=\"About\" src=\"/media/uploads/2020/07/23/4.jpg\" /></div>\n</div>\n</div>\n\n<div class=\"col-lg-6\">\n<div class=\"about-item about-right\"><img alt=\"About\" src=\"/media/uploads/2020/07/23/5.png\" />\n<h2>About Our Hospital</h2>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>\n\n<ul>\n    <li><i class=\"icofont-check-circled\"></i>Browse Our Website</li>\n    <li><i class=\"icofont-check-circled\"></i>Choose Service</li>\n    <li><i class=\"icofont-check-circled\"></i>Send Messege</li>\n</ul>\n<a href=\"about.html\">Know More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<!-- End About -->\n\n<!-- Counter -->\n\n<div class=\"counter-area counter-bg counter-area-four\">\n<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-sm-6 col-lg-3\">\n<div class=\"counter-item\"><i class=\"icofont-patient-bed\"></i>\n<h3 class=\"counter\">850</h3>\n\n<p>Patients Beds</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3\">\n<div class=\"counter-item\"><i class=\"icofont-people\"></i>\n<h3><span class=\"counter\">25000</span>+</h3>\n\n<p>Happy Patients</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3\">\n<div class=\"counter-item\"><i class=\"icofont-doctor-alt\"></i>\n<h3 class=\"counter\">750</h3>\n\n<p>Doctors &amp; Nurse</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3\">\n<div class=\"counter-item\"><i class=\"icofont-badge\"></i>\n<h3 class=\"counter\">18</h3>\n\n<p>Year Experience</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<!-- End Counter -->\n\n<!-- Speciality -->\n\n<section class=\"speciality-area pb-100\">\n<div class=\"container-fluid p-0\">\n<div class=\"row m-0\">\n<div class=\"col-lg-7\">\n<div class=\"speciality-left\">\n<div class=\"section-title-two\"><span>Speciality</span>\n\n<h2>Our Expertise</h2>\n</div>\n\n<div class=\"speciality-item\">\n<div class=\"row m-0\">\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"speciality-inner\"><i class=\"icofont-check-circled\"></i>\n<h3>Child Care</h3>\n\n<p>Lorem ipsum dolor sit amet, is consectetur adipiscing</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"speciality-inner\"><i class=\"icofont-check-circled\"></i>\n<h3>More Stuff</h3>\n\n<p>Lorem ipsum dolor sit amet, is consectetur adipiscing</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"speciality-inner\"><i class=\"icofont-check-circled\"></i>\n<h3>Enough Lab</h3>\n\n<p>Lorem ipsum dolor sit amet, is consectetur adipiscing</p>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"speciality-inner\"><i class=\"icofont-check-circled\"></i>\n<h3>24 Hour Doctor</h3>\n\n<p>Lorem ipsum dolor sit amet, is consectetur adipiscing</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-lg-5 pr-0\">\n<div class=\"speciality-item speciality-right\"><img alt=\"Speciality\" src=\"assets/img/home-two/4.jpg\" />\n<div class=\"speciality-emergency\">\n<div class=\"speciality-icon\"><i class=\"icofont-ui-call\"></i></div>\n\n<h3>Emergency Call</h3>\n\n<p>+07 554 332 322</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n\n<!-- End Speciality -->\n\n<!-- Services -->\n\n<section class=\"services-area pb-70\">\n<div class=\"container\">\n<div class=\"section-title-two\"><span>Services</span>\n\n<h2>Our Hospital Services</h2>\n</div>\n\n<div class=\"row\">\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-doctor\"></i>\n<h3>Expert Doctor</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-doctor\"></i>\n<h3>Expert Doctor</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-prescription\"></i>\n<h3>Diagnosis</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-prescription\"></i>\n<h3>Diagnosis</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".7s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-patient-file\"></i>\n<h3>Pathology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-patient-file\"></i>\n<h3>Pathology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".9s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-tooth\"></i>\n<h3>Dental Care</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-tooth\"></i>\n<h3>Dental Care</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-heart-beat-alt\"></i>\n<h3>Cardiology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-heart-beat-alt\"></i>\n<h3>Cardiology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-drug\"></i>\n<h3>Medicine</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-drug\"></i>\n<h3>Medicine</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".7s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-dna-alt-1\"></i>\n<h3>Neurology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-dna-alt-1\"></i>\n<h3>Neurology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".9s\">\n<div class=\"service-item\">\n<div class=\"d-table\">\n<div class=\"d-table-cell\">\n<div class=\"service-front\"><i class=\"icofont-ambulance-cross\"></i>\n<h3>Ambulance</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\"><i class=\"icofont-ambulance-cross\"></i>\n<h3>Ambulance</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n\n<!-- End Services -->\n\n<!-- Testimonials -->\n\n<section class=\"testimonial-area ptb-100\">\n<div class=\"container\">\n<div class=\"testimonial-wrap\">\n<h2>What our patient say</h2>\n\n<div class=\"testimonial-slider owl-theme owl-carousel\">\n<div class=\"testimonial-item\"><img alt=\"Testimonial\" src=\"assets/img/home-three/7.png\" />\n<h3>John Mic</h3>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id labore vitae cupiditate dolorum voluptates dicta delectus quibusdam excepturi, veniam deserunt magni ipsam mollitia optio, quas quis rem non reprehenderit.</p>\n</div>\n\n<div class=\"testimonial-item\"><img alt=\"Testimonial\" src=\"assets/img/home-three/8.png\" />\n<h3>Adam Smith</h3>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id labore vitae cupiditate dolorum voluptates dicta delectus quibusdam excepturi, veniam deserunt magni ipsam mollitia optio, quas quis rem non reprehenderit.</p>\n</div>\n\n<div class=\"testimonial-item\"><img alt=\"Testimonial\" src=\"assets/img/home-three/9.png\" />\n<h3>Jac Jacson</h3>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam id labore vitae cupiditate dolorum voluptates dicta delectus quibusdam excepturi, veniam deserunt magni ipsam mollitia optio, quas quis rem non reprehenderit.</p>\n</div>\n</div>\n</div>\n</div>\n</section>\n\n<!-- End Testimonials -->",
+    "author": 1,
+    "created_at": "2020-07-23T17:39:20.798Z",
+    "updated_at": "2020-07-24T19:30:49.357Z",
+    "status": "published"
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 2,
+  "fields": {
+    "title": "Services",
+    "slug": "services",
+    "priority": 1,
+    "body": "<!-- Page Title -->\n\n<div class=\"page-title-area page-title-four\" wfd-id=\"35\">\n<div class=\"d-table\" wfd-id=\"36\">\n<div class=\"d-table-cell\" wfd-id=\"37\">\n<div class=\"page-title-item\" wfd-id=\"38\">\n<h2>Service</h2>\n\n<ul wfd-id=\"39\">\n    <li wfd-id=\"42\"><a href=\"index.html\">Home</a></li>\n    <li wfd-id=\"41\"><i class=\"icofont-simple-right\"></i></li>\n    <li wfd-id=\"40\">Service</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n\n<!-- End Page Title -->\n\n<!-- Services -->\n\n<section class=\"services-area pt-100 pb-70\" wfd-id=\"0\">\n<div class=\"container\" wfd-id=\"1\">\n<div class=\"row\" wfd-id=\"2\">\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".3s\" wfd-id=\"31\">\n<div class=\"service-item\" wfd-id=\"32\">\n<div class=\"service-front\" wfd-id=\"34\"><i class=\"icofont-doctor\"></i>\n<h3>Expert Doctor</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"33\"><i class=\"icofont-doctor\"></i>\n<h3>Expert Doctor</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".5s\" wfd-id=\"27\">\n<div class=\"service-item\" wfd-id=\"28\">\n<div class=\"service-front\" wfd-id=\"30\"><i class=\"icofont-prescription\"></i>\n<h3>Diagnosis</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"29\"><i class=\"icofont-prescription\"></i>\n<h3>Diagnosis</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".7s\" wfd-id=\"23\">\n<div class=\"service-item\" wfd-id=\"24\">\n<div class=\"service-front\" wfd-id=\"26\"><i class=\"icofont-patient-file\"></i>\n<h3>Pathology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"25\"><i class=\"icofont-patient-file\"></i>\n<h3>Pathology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".9s\" wfd-id=\"19\">\n<div class=\"service-item\" wfd-id=\"20\">\n<div class=\"service-front\" wfd-id=\"22\"><i class=\"icofont-tooth\"></i>\n<h3>Dental Care</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"21\"><i class=\"icofont-tooth\"></i>\n<h3>Dental Care</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".3s\" wfd-id=\"15\">\n<div class=\"service-item\" wfd-id=\"16\">\n<div class=\"service-front\" wfd-id=\"18\"><i class=\"icofont-heart-beat-alt\"></i>\n<h3>Cardiology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"17\"><i class=\"icofont-heart-beat-alt\"></i>\n<h3>Cardiology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".5s\" wfd-id=\"11\">\n<div class=\"service-item\" wfd-id=\"12\">\n<div class=\"service-front\" wfd-id=\"14\"><i class=\"icofont-drug\"></i>\n<h3>Medicine</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"13\"><i class=\"icofont-drug\"></i>\n<h3>Medicine</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".7s\" wfd-id=\"7\">\n<div class=\"service-item\" wfd-id=\"8\">\n<div class=\"service-front\" wfd-id=\"10\"><i class=\"icofont-dna-alt-1\"></i>\n<h3>Neurology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"9\"><i class=\"icofont-dna-alt-1\"></i>\n<h3>Neurology</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n\n<div class=\"col-sm-6 col-lg-3 wow fadeInUp\" data-wow-delay=\".9s\" wfd-id=\"3\">\n<div class=\"service-item\" wfd-id=\"4\">\n<div class=\"service-front\" wfd-id=\"6\"><i class=\"icofont-ambulance-cross\"></i>\n<h3>Ambulance</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n</div>\n\n<div class=\"service-end\" wfd-id=\"5\"><i class=\"icofont-ambulance-cross\"></i>\n<h3>Ambulance</h3>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>\n<a href=\"service-details.html\">Read More</a></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n\n<!-- End Services -->\n\n<!-- Expertise -->\n\n<section class=\"expertise-area pb-70\">\n<div class=\"container\">\n<div class=\"section-title\">\n<h2>Our Expertise</h2>\n</div>\n\n<div class=\"row align-items-center\">\n<div class=\"col-lg-6\">\n<div class=\"expertise-item\">\n<div class=\"row\">\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"expertise-inner\"><a href=\"blog-details.html\"><i class=\"icofont-doctor-alt\"></i> </a>\n\n<h3><a href=\"blog-details.html\">Certified Doctors</a></h3>\n<a href=\"blog-details.html\"> </a>\n\n<p><a href=\"blog-details.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>\n<a href=\"blog-details.html\"> </a></div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"expertise-inner\"><a href=\"blog-details.html\"><i class=\"icofont-stretcher\"></i> </a>\n\n<h3><a href=\"blog-details.html\">Emergency</a></h3>\n<a href=\"blog-details.html\"> </a>\n\n<p><a href=\"blog-details.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>\n<a href=\"blog-details.html\"> </a></div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".3s\">\n<div class=\"expertise-inner\"><a href=\"blog-details.html\"><i class=\"icofont-network\"></i> </a>\n\n<h3><a href=\"blog-details.html\">Teachnology</a></h3>\n<a href=\"blog-details.html\"> </a>\n\n<p><a href=\"blog-details.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>\n<a href=\"blog-details.html\"> </a></div>\n</div>\n\n<div class=\"col-sm-6 col-lg-6 wow fadeInUp\" data-wow-delay=\".5s\">\n<div class=\"expertise-inner\"><a href=\"blog-details.html\"><i class=\"icofont-ambulance-cross\"></i> </a>\n\n<h3><a href=\"blog-details.html\">Ambulance</a></h3>\n<a href=\"blog-details.html\"> </a>\n\n<p><a href=\"blog-details.html\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></p>\n<a href=\"blog-details.html\"> </a></div>\n</div>\n</div>\n</div>\n</div>\n\n<div class=\"col-lg-6\">\n<div class=\"expertise-item\">\n<div class=\"expertise-right\"><img alt=\"Expertise\" src=\"/media/uploads/2020/07/24/6.jpg\" /></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n\n<!-- End Expertise -->",
+    "author": 2,
+    "created_at": "2020-07-24T23:49:09.482Z",
+    "updated_at": "2020-07-24T23:50:48.005Z",
+    "status": "published"
+  }
+},
+{
+  "model": "doctors.doctor",
+  "pk": 1,
+  "fields": {
+    "name": "Dr. Sarah Taylor",
+    "slug": "dr-sarah-taylor",
+    "doc_image": "doctors/3.jpg",
+    "specialization": "Neurosurgeon",
+    "degree": "MBBS in Neurology, PHD in Neurosurgeon.",
+    "biography": "<div class=\"doctor-details-biography\">\r\n<h3>Biography</h3>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>\r\n&nbsp;\r\n\r\n<p>Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>\r\n</div>\r\n\r\n<div class=\"doctor-details-biography\">\r\n<h3>Education</h3>\r\n\r\n<ul>\r\n\t<li>PHD degree in Neorology at University of Mediserv (2006)</li>\r\n\t<li>Master of Neoro Surgery at University of Mediserv (2002)</li>\r\n\t<li>MBBS degree in Neurosciences at University of Mediserv (2002)</li>\r\n\t<li>Higher Secondary Certificate at Mediserv collage (1991)</li>\r\n</ul>\r\n</div>\r\n\r\n<div class=\"doctor-details-biography\">\r\n<h3>Biography</h3>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>\r\n</div>",
+    "contact_info": "<div class=\"doctor-details-contact\">\r\n<h3>Contact info</h3>\r\n\r\n<ul>\r\n\t<li><i class=\"icofont-ui-call\"></i>Call : +07 554 332 322</li>\r\n\t<li><i class=\"icofont-ui-message\"></i>hello@medsev.com</li>\r\n\t<li><i class=\"icofont-location-pin\"></i>4th Floor, 408 No Chamber</li>\r\n</ul>\r\n</div>\r\n\r\n<div class=\"doctor-details-work\">\r\n<h3>Working hours</h3>\r\n\r\n<div class=\"appointment-item-two-right\">\r\n<div class=\"appointment-item-content\">\r\n<div class=\"content-one\">\r\n<ul>\r\n\t<li>Monday</li>\r\n\t<li>Tuesday</li>\r\n\t<li>Wednesday</li>\r\n\t<li>Sunday</li>\r\n</ul>\r\n</div>\r\n\r\n<div class=\"content-two\">\r\n<ul>\r\n\t<li>9:00 am - 8:00 pm</li>\r\n\t<li>9:00 am - 8:00 pm</li>\r\n\t<li>9:00 am - 8:00 pm</li>\r\n\t<li>9:00 am - 8:00 pm</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+    "created_at": "2020-07-25T00:22:29.992Z",
+    "updated_at": "2020-07-25T00:52:08.072Z"
+  }
+},
+{
+  "model": "appointment.appointment",
+  "pk": 1,
+  "fields": {
+    "name": "Khusan Berdiev",
+    "email": "berdiev.khusan@gmail.com",
+    "phone": "4915775140214",
+    "service": "dental",
+    "doctor": 1,
+    "age": 4,
+    "comments": "",
+    "status": "processed",
+    "created_at": "2020-08-08T19:04:27.176Z",
+    "update_at": "2020-08-11T09:24:47.585Z"
+  }
+},
+{
+  "model": "appointment.appointment",
+  "pk": 2,
+  "fields": {
+    "name": "Khusan Berdiev",
+    "email": "berdiev.khusan@gmail.com",
+    "phone": "4915775140214",
+    "service": "dental",
+    "doctor": 1,
+    "age": 12,
+    "comments": "",
+    "status": "pending",
+    "created_at": "2020-08-08T19:14:56.049Z",
+    "update_at": "2020-08-08T19:14:56.049Z"
+  }
+},
+{
+  "model": "appointment.appointment",
+  "pk": 3,
+  "fields": {
+    "name": "Khusan Berdiev",
+    "email": "berdiev.khusan@gmail.com",
+    "phone": "4915775140214",
+    "service": "neurology",
+    "doctor": 1,
+    "age": 12,
+    "comments": "",
+    "status": "pending",
+    "created_at": "2020-08-08T19:52:16.470Z",
+    "update_at": "2020-08-08T19:52:16.470Z"
+  }
+},
+{
+  "model": "appointment.appointment",
+  "pk": 4,
+  "fields": {
+    "name": "Khusan Berdiev",
+    "email": "berdiev.khusan@gmail.com",
+    "phone": "4915775140214",
+    "service": "neurology",
+    "doctor": 1,
+    "age": 12,
+    "comments": "",
+    "status": "pending",
+    "created_at": "2020-08-08T19:55:02.189Z",
+    "update_at": "2020-08-08T19:55:02.189Z"
+  }
+}
+]

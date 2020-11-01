@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-15 18:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: med/settings.py:128
+msgid "English"
+msgstr ""
+
+#: med/settings.py:129
+msgid "German"
+msgstr ""
+
+#: med/urls.py:29
+msgid "sign-up"
+msgstr ""
+
+#: med/urls.py:30
+msgid "login"
+msgstr ""
+
+#: med/urls.py:31
+msgid "contacts/"
+msgstr ""
+
+#: med/urls.py:32
+msgid "search/"
+msgstr ""
+
+#: med/urls.py:33
+msgid "blog/"
+msgstr ""
+
+#: med/urls.py:34
+msgid "pages/"
+msgstr ""
+
+#: med/urls.py:35
+msgid "doctors/"
+msgstr ""
+
+#: med/urls.py:36
+msgid "appointment/"
+msgstr ""
+
+#: med/urls.py:37
+msgid "admin/"
+msgstr ""
+
+#: med/urls.py:38
+msgid "backoffice/"
+msgstr ""
+
+#: templates/base.html:32
+msgid "Medsev - Medical & Healthcare Service"
+msgstr ""
+
+#: templates/base.html:78
+msgid "Contact Us"
+msgstr ""
+
+#: templates/base.html:87 templates/base.html:88 templates/h-top.html:12
+msgid "Call"
+msgstr ""
+
+#: templates/base.html:101
+msgid "Quick Links"
+msgstr ""
+
+#: templates/base.html:104
+msgid "About us"
+msgstr ""
+
+#: templates/base.html:107
+msgid "Blog"
+msgstr ""
+
+#: templates/base.html:110
+msgid "Our Expertise"
+msgstr ""
+
+#: templates/base.html:113
+msgid "Faq"
+msgstr ""
+
+#: templates/base.html:116
+msgid "Doctors"
+msgstr ""
+
+#: templates/base.html:119
+msgid "Contact us"
+msgstr ""
+
+#: templates/base.html:128
+msgid "Our Services"
+msgstr ""
+
+#: templates/base.html:131
+msgid "Dental Care"
+msgstr ""
+
+#: templates/base.html:134
+msgid "Cardiology"
+msgstr ""
+
+#: templates/base.html:137
+msgid "Hijama Therapy"
+msgstr ""
+
+#: templates/base.html:140
+msgid "Massage Therapy"
+msgstr ""
+
+#: templates/base.html:143
+msgid "Ambluance Sevices"
+msgstr ""
+
+#: templates/base.html:146
+msgid "Medicine"
+msgstr ""
+
+#: templates/base.html:155
+msgid "Feedback"
+msgstr ""
+
+#: templates/base.html:158
+msgid "Name"
+msgstr ""
+
+#: templates/base.html:161
+msgid "Phone"
+msgstr ""
+
+#: templates/base.html:164
+msgid "Message"
+msgstr ""
+
+#: templates/base.html:167
+msgid "SUBMIT"
+msgstr ""
+
+#: templates/base.html:182
+msgid "Copyright ©2020  Design & Developed by"
+msgstr ""
+
+#: templates/index-2.html:50
+msgid "Blogs"
+msgstr ""
+
+#: templates/index-2.html:51
+msgid "Our latest blogs"
+msgstr ""
+
+#: templates/index-2.html:70
+msgid "Read More"
+msgstr ""
+
+#: templates/search_form.html:3
+msgid "Search here..."
+msgstr ""
+
+#: templates/search_form.html:5
+msgid "Go"
+msgstr ""
+
+#: templates/search_result.html:6
+msgid "Posts containing"
+msgstr ""
+
+#: templates/search_result.html:9
+msgid "Found "
+msgstr ""
+
+#: templates/search_result.html:9
+msgid "result"
+msgstr ""
+
+#: templates/search_result.html:16
+msgid "There are no results for your query."
+msgstr ""

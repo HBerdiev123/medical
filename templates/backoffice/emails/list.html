@@ -1,0 +1,49 @@
+{% extends "backoffice/base.html" %}
+{% load i18n %}
+
+{% block content %}
+	<section class="content">
+		<div class="row">
+        <div class="col-12">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">{% trans "Emails" %}</h3>
+              <div class="box-tools">
+                <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-hover table-responsive">
+                <tbody><tr>
+                  <th>Sender</th>
+                  <th>Subject</th>
+                  <th>Date</th>      
+                  <th>Status</th>
+               {%for email in emails %}	
+                </tr>
+                <tr>
+				  <td><a href="{% url 'emails:detail' email.id %}">{{email.sender}}</a></td>
+				  <td><a href="{% url 'emails:detail' email.id %}">{{email.subject}}</a></td>
+				  <td><span class="text-muted"><i class="fa fa-clock-o"></i>{{email.created_at|date:"M d, Y"}}</span> </td>
+			
+				  <td><span class="label label-danger">{% trans "Unread" %}</span></td>
+				 
+			   {%endfor%}	  
+				
+              </tbody></table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+      </div>
+
+	</section>
+
+{% endblock %}

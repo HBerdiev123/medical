@@ -1,0 +1,81 @@
+<section class="appointment-area pb-100">
+    <div class="container-fluid p-0">
+        <div class="appointment-item">
+            <h2>Book your appointment</h2>
+            <span>We will confirm your  appointment within 2 hours</span>
+            <div class="appointment-form">
+                <form  method="POST" >
+                   {% csrf_token %}
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-business-man-alt-1"></i>
+                                <label>Name</label>
+                                 {{form.name.errors}}
+                                <input type="text" name="name" class="form-control" placeholder="Enter Your Name">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-ui-message"></i>
+                                <label>Email</label>
+                                {{form.email.errors}}
+                                <input type="email" name="email" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-ui-call"></i>
+                                  {{form.phone.errors}}
+                                <label>Phone</label>
+                                <input type="text" name="phone" class="form-control" placeholder="Enter Your Number">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-hospital"></i>
+                                  {{form.service.errors}}
+                                <label>Services</label>
+                                <select class="form-control" name="service" id="exampleFormControlSelect1">
+                                  {% for k, v in form.service.field.choices %}
+                                    <option value="{{k}}">{{v}}</option>
+                                  {%endfor%}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-doctor"></i>
+                                  {{form.doctor.errors}}
+                                <label>Doctor</label>
+                                <select name="doctor" class="form-control" id="exampleFormControlSelect1">
+                                    <option>Choose Your Doctor</option>
+                                    {% for k, v in form.doctor.field.choices %}
+                                        <option value="{{k}}">{{v}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <i class="icofont-business-man"></i>
+                                  {{form.age.errors}}
+                                <label> Age</label>
+                                <input type="text" name="age" class="form-control" placeholder="Your Age">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn appointment-btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+    
+
+</script>

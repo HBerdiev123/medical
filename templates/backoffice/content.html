@@ -1,0 +1,189 @@
+ {% load static %}   
+    <section class="content">
+  		
+        <div class="row">
+  		
+  		<div class="col-xl-4 connectedSortable">
+            <!-- weather -->
+            <div class="box bg-green text-center">			
+  			<div class="box-body">
+  			  <div class="p-5">
+  				  <h3 class="white">
+  					<span class="font-size-30">City, </span>Country
+  				  </h3>
+  				  <p class="weather-day-date mb-30">
+  					<span class="mr-5">MONDAY</span> May 11, 2017
+  				  </p>
+  				  <div class="mb-30 weather-icon">
+  					<canvas class="mr-40 text-top" id="icon1" width="90" height="90"></canvas>
+  					<div class="inline-block">
+  					  <span class="font-size-50">29°
+  						<span class="font-size-40">C</span>
+  					  </span>
+  					  <p class="text-left">DAY RAIN</p>
+  					</div>
+  				  </div>
+  				  <div class="row no-space mb-25">
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">TUE</div>
+  						<i class="wi-day-sunny font-size-30 mb-10"></i>
+  						<div>24°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">WED</div>
+  						<i class="wi-day-cloudy font-size-30 mb-10"></i>
+  						<div>21°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">THU</div>
+  						<i class="wi-day-sunny font-size-30 mb-10"></i>
+  						<div>25°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">FRI</div>
+  						<i class="wi-day-cloudy-gusts font-size-30 mb-10"></i>
+  						<div>20°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">SAT</div>
+  						<i class="wi-day-lightning font-size-30 mb-10"></i>
+  						<div>18°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  					<div class="col-2">
+  					  <div>
+  						<div class="mb-10">SUN</div>
+  						<i class="wi-day-storm-showers font-size-30 mb-10"></i>
+  						<div>14°
+  						  <span class="font-size-12">C</span>
+  						</div>
+  					  </div>
+  					</div>
+  				  </div>
+  				</div>
+  			</div>
+  			<!-- /.box-body -->
+  		  </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.col -->
+  		<div class="col-xl-8 connectedSortable">
+            <!-- MAP & BOX PANE -->
+            <div class="box">
+              <div class="box-header with-border">
+                <h3 class="box-title">Our Visitors</h3>
+
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body no-padding">
+                <div class="row">
+                  <div class="col-lg-9 col-md-8">
+                    <div class="pad">
+                      <!-- Map will be created here -->
+                      <div id="visitfromworld" style="height: 325px;"></div>
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                  <div class="col-lg-3 col-md-4">
+                    <div class="row pad box-pane-right bg-blue m-0">
+                      <div class="col-4 col-sm-12 description-block margin-bottom p-0">
+                        <div class="sparkbar pad" data-color="#fff">80,60,95,70,75,80,50</div>
+                        <h5 class="description-header">7458</h5>
+                        <span class="description-text">Visits</span>
+                      </div>
+                      <!-- /.description-block -->
+                      <div class="col-4 col-sm-12 description-block margin-bottom p-0">
+                        <div class="sparkbar pad" data-color="#fff">70,40,85,70,61,93,63</div>
+                        <h5 class="description-header">56%</h5>
+                        <span class="description-text">Referrals</span>
+                      </div>
+                      <!-- /.description-block -->
+                      <div class="col-4 col-sm-12 description-block p-0">
+                        <div class="sparkbar pad" data-color="#fff">80,55,91,70,81,43,67</div>
+                        <h5 class="description-header">85%</h5>
+                        <span class="description-text">Organic</span>
+                      </div>
+                      <!-- /.description-block -->
+                    </div>
+                  </div>
+                  <!-- /.col -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->          
+          </div>  
+  		
+  		  
+          <div class="col-xl-8 connectedSortable">
+            <!-- LINE CHART -->
+            <div class="box box-info">
+              <div class="box-header with-border">
+                <h3 class="box-title">Products Yearly Sales</h3>
+
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+              </div>
+              <div class="box-body">
+                <div class="chart">
+                  <canvas id="lineChart" style="height:327px"></canvas>
+                </div>
+              </div>
+              <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+          </div>
+          <!-- /.col -->        
+  		<div class="col-xl-4">	
+            <!-- Blog LIST -->
+            {% include 'backoffice/blog-list.html' with posts=posts%}
+         
+  		</div>
+          
+         </div>        
+        <!-- /.row -->
+        
+
+
+
+        <div class="row">
+        	<div class="col-xl-6">
+        		<!-- quick email widget -->
+           {% include "backoffice/quick-mail.html" %}
+        	</div>
+        	
+          {% include 'backoffice/appointment-list.html' %}
+        	
+        </div>
+         <!-- browser usage -->
+
+        
+  	</section>
+   

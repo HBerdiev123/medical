@@ -1,0 +1,52 @@
+ 	<div class="col-xl-6">
+        		<!-- TABLE: LATEST ORDERS -->
+            <div class="box box-info">
+              <div class="box-header with-border">
+                <h3 class="box-title">New Appointments</h3>
+
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                  </button>
+                  <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+              </div>
+              <!-- /.box-header -->
+              <div class="box-body">
+                <div class="table-responsive">
+              
+                  <table class="table table-responsive no-margin">
+                    <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Doctor</th>
+                      <th>Service</th>
+                      <th>Created At</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                 
+                  {% for ap in appointments %}
+                    <tr>
+                      <td><a href="pages/examples/invoice.html">{{ap.id}}</a></td>
+                      <td>{{ap.doctor}}</td>
+                      <td><span class="label {% ifequal ap.status "processed" %}bg-purple{% endifequal %} {% ifequal ap.status "pending" %}bg-yellow{% endifequal %}">{{ap.status}}</span></td>
+                      <td>
+                        {{ap.created_at|date:"d M, yy"}}
+                      </td>
+                    </tr>
+                  {% endfor %}
+
+
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.table-responsive -->
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer clearfix">
+                <a href="javascript:void(0)" class="btn btn-sm btn-info pull-left">Place New Appointment</a>
+                <a href="javascript:void(0)" class="btn btn-sm btn-default pull-right">View All Appointments</a>
+              </div>
+              <!-- /.box-footer -->
+            </div>
+        	</div>

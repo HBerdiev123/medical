@@ -1,0 +1,8 @@
+{% load i18n %}
+<form method="post" action="{% url 'search' %}">
+    <input type="text" class="src-input" id="search-terms" name='query' placeholder="{% trans 'Search here...' %}" />
+    {% csrf_token %}
+    <button type="submit" name="submit" value="{% trans 'Go' %}" class="search-icon">
+    	<i class="icofont-search-1"></i>
+    </button>
+</form>

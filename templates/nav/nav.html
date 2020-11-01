@@ -1,0 +1,37 @@
+    {% load static %}
+    {% load sitetree %}
+      <div class="navbar-area sticky-top">
+            <!-- Menu For Mobile Device -->
+            <div class="mobile-nav">
+                <a href="{% url 'home' %}" class="logo">
+                    <img src="{% static 'img/logo-two.png' %}" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Menu For Desktop Device -->
+            <div class="main-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="{% url 'home' %}">
+                            <img src="{% static 'img/logo.png' %}" alt="Logo">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                         
+                            {% sitetree_menu  from "menu" include "trunk" template "nav/nav-item.html" %}
+
+                            <div class="nav-srh">
+                                <div class="search-toggle">
+                                    <button class="search-icon icon-search"><i class="icofont-search-1"></i></button>
+                                    <button class="search-icon icon-close"><i class="icofont-close"></i></button>
+                                </div>
+                                <div class="search-area">
+                                  {% include 'search_form.html' %}
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+        </div>

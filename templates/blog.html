@@ -1,0 +1,94 @@
+{%extends 'base.html' %}
+{%load static %}
+{%block content %}
+
+
+        <!-- Page Title -->
+        <div class="page-title-area page-title-four">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="page-title-item">
+                        <h2>Our Latest Blogs</h2>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <i class="icofont-simple-right"></i>
+                            </li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Blog -->
+        <section class="blog-area-two pt-100">
+            <div class="container">
+                <div class="row">
+                    {% for post in posts %}
+                    <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay=".{{forloop.counter}}s">
+                        <div class="blog-item">
+                            <div class="blog-top">
+                                <a href="blog-details.html">
+                                    <img src="{% static 'img/home-one/11.jpg' %}" alt="Blog">
+                                </a>
+                            </div>
+                            <div class="blog-bottom">
+                                <h3>
+                                    <a href="{{post.get_absolute_url}}">
+                                        {{ post.title}}
+                                    </a>
+                                </h3>
+                                <p>
+                           
+                                    {{post.body|truncatechars_html:80|safe}}
+
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a href="{{post.get_absolute_url}}">
+                                            Read More
+                                            <i class="icofont-long-arrow-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class="icofont-calendar"></i>
+                                        {{post.created|date:"M d, Y"}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination justify-content-center">
+                        {% if posts.has_previous %}
+                        <li class='page-item {% if posts.has_previous %} disabled {% endif %}'>
+                          <a class="page-link" href="?page={{ posts.previous_page_number }}" tabindex="-1" {% if posts.has_previous %} aria-disabled="true" {% endif %}>Previous</a>
+                        </li>
+                        {% endif %}
+                        <li class="page-item">{{posts.number}}</li>
+                     
+                        {% if posts.has_next %}
+                            <li class="page-item">
+                              <a class="page-link" href="?page={{ posts.next_page_number }}">Next</a>
+                            </li>
+                        {% endif %}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog -->
+
+        
+{%endblock%}
