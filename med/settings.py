@@ -25,7 +25,7 @@ SECRET_KEY = '4!io498rbyue!wc5s=bgn^y*0%%&le99oi&t(^u^153r@q58%2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['med787.herokuapp.com',]
+ALLOWED_HOSTS = ['med787.herokuapp.com']
 
 
 # Application definition
@@ -95,13 +95,13 @@ WSGI_APPLICATION = 'med.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'med',
-        'USER':'med',
-        'PASSWORD':'Adgjmptw'
+        # 'ENGINE':'django.db.backends.postgresql',
+        # 'NAME':'med',
+        # 'USER':'med',
+        # 'PASSWORD':'Adgjmptw'
     }
 }
 
