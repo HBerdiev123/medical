@@ -28,8 +28,8 @@ register_i18n_trees(['menu',])
 urlpatterns = i18n_patterns(
     path('', views.index, name='home'),
     path('404', views.error_404),
-    path(_('sign-up'), views.sign_up),
-    path(_('login'), views.login),
+    # path(_('sign-up'), views.sign_up),
+    # path(_('login'), views.login),
     path(_('contacts/'), views.contacts),
     path(_('search/'), views.post_search, name='search'),
     path(_('blog/'), include('blog.urls', namespace='blog')),

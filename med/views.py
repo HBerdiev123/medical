@@ -84,11 +84,11 @@ def contacts(request):
 
 
 
-def sign_up(request):
-	return render(request, 'sign-up.html')
+# def sign_up(request):
+# 	return render(request, 'sign-up.html')
 
-def login(request):
-	return render(request, 'login.html')
+# def login(request):
+# 	return render(request, 'login.html')
 
 def error_404(request):
 	return render(request, '404.html')	
